@@ -4,6 +4,11 @@ import java.util.Date;
 
 public class Cliente {
 	
+	public static void main(String args[])
+	{
+	System.out.println("\n\nO Cliente está escolhendo o produto");
+	}
+	
 	private String nome, email;
 	private Date dtNascimento;
 	private Integer cpf;
@@ -40,8 +45,5 @@ public class Cliente {
 			this.cpf = cpf;
 	}
 	
-	void comprar() {
-			System.out.println("\n\nO Cliente está escolhendo o produto");
-	}
 
 }
