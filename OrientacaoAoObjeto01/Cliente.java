@@ -4,13 +4,9 @@ import java.util.Date;
 
 public class Cliente {
 	
-	public static void main(String args[])
-	{
-	System.out.println("\n\nO Cliente está escolhendo o produto");
-	}
 	
 	private String nome, email;
-	private Date dtNascimento;
+	private Date DtNascimento;
 	private Integer cpf;
 	
 	public String getNome( ) {
@@ -30,11 +26,11 @@ public class Cliente {
 	}
 	
 	public Date getDtNascimento( ) {
-			return dtNascimento;
+			return DtNascimento;
 	}
 	
 	public void getDtNascimento(Date date) {
-			this.dtNascimento = date;
+			this.DtNascimento = date;
 	}
 	
 	public Integer getCpf( ) {
@@ -45,5 +41,8 @@ public class Cliente {
 			this.cpf = cpf;
 	}
 	
+	void comprar() {
+		System.out.println("\n\nO Cliente está escolhendo o produto");
+	}
 
 }
